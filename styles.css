@@ -1,0 +1,92 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f4f4f4;
+	background-image: url(https://www.shutterstock.com/image-photo/picture-man-woman-wedding-ringyoung-600nw-1312254920.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.container {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .bgb{
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	backdrop-filter: blur(15px);
+	border-radius: 8px;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 40px;
+}
+
+.name {
+	font-size: 3em;
+	margin: 0;
+}
+
+.and {
+	font-size: 3em;
+	margin: 0;
+}
+
+.date {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.countdown {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+.time {
+	/* background: rgba(254, 182, 182, 0.9); */
+	background: #d60051;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.time span {
+	display: block;
+	font-size: 0.5em;
+}
+
+.map-button {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #d60051;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+}
+
+.map-button:hover {
+	background-color: #bf0040;
+}
